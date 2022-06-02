@@ -1,7 +1,4 @@
 #!/bin/bash
-#include <stdio.h>
-int main(void)
-{
-printf("Hello World\n")
-return(0)
-}
+export CFILE=0-main.c ; ./0-preprocessor
+
+
