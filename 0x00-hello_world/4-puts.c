@@ -2,7 +2,8 @@
 #include <stdio.h>
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle\n");
+	char a[34] = (""Programming is like building a multilingual puzzle");
+puts(a)
 	return (0);
 }
-gcc -c 4-puts.c
+
